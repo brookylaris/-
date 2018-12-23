@@ -33,10 +33,10 @@ import modules.roles
 import modules.weather
 import modules.hangman
 
-REPOSITORY_URL = "https://github.com/martygrant/uwsgamedevbot"
+REPOSITORY_URL = ""
 VERSION_NUMBER = os.getenv('version')
-BOT_TOKEN = os.getenv('token')
-GIPHY_TOKEN = os.getenv('giphy')
+BOT_TOKEN = os.getenv('NTI2NDM1NDc2ODc0MzMwMTEz.DwFJJw.8t_ZObeSRqTSI7BUUNl4ysvHjIA')
+GIPHY_TOKEN = os.getenv('sq1dvVvFRKSiOmtxQf0Q5YFpebRTV3iN')
 
 ##### [ CLASSES ] #####
 
@@ -350,7 +350,7 @@ async def on_member_join(member):
 	# Refresh channel IDs
 	BOT.config.refresh()
 
-	welcome_message = """Welcome to the **UWS Game Dev Society**!
+	welcome_message = """Welcome to the **Rage Empire**!
 
 Please check out {} and set your server nickname to your real name. Visit {} to see what events are coming up! Why not introduce yourself in {}?
 Please conduct yourself professionally in public-facing channels like {}. Thanks!
@@ -1046,7 +1046,7 @@ async def modules(ctx, course):
 
 @BOT.command(pass_context=True)
 async def ratemodule(ctx, *arg):
-	"""Rate a course module at UWS. Specify command like '!ratecourse course rating module' e.g: '!ratecourse cgt 5 intro to programming'"""
+	"""Rate a course module at Rage Empire. Specify command like '!ratecourse course rating module' e.g: '!ratecourse cgt 5 intro to programming'"""
 
 	message = ""
 
